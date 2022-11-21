@@ -1,5 +1,7 @@
-package Tic_Tac_Toe;
+package Tic_Tac_Toe.componet;
 
+
+import Tic_Tac_Toe.model.GameTable;
 
 import java.util.Random;
 

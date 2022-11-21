@@ -1,6 +1,8 @@
 package Tic_Tac_Toe;
 
-public final class Launcher {
+import Tic_Tac_Toe.componet.*;
+
+public final class launcher {
     public static void main(String[] args) {
 
         final Game game = new Game(
