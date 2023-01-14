@@ -27,7 +27,7 @@ public class CounterService {
         return newCounters;
     }
 
-
+    //работающий вариант
     /*  public Counter[] addNewCounters(Counter counter) {
         int newArrayLength = counters.length + 1;
         Counter[] newCounters = new Counter[newArrayLength];
