@@ -38,4 +38,5 @@ public class EquilateralTriangle extends EquilateralShape {
 
         return triangle;
     }
+
 }
