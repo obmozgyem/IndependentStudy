@@ -2,7 +2,7 @@ package com.walking.Lesson13.Task2.Model;
 
 public class Cow extends Animal {
 
-    private boolean isABoy = true;
+   private boolean isABoy = true;
 
     public Cow(String name, boolean isABoy) {
         super(name);
@@ -13,7 +13,6 @@ public class Cow extends Animal {
         System.out.println("moo");
 
     }
-
     @Override
     public void sound() {
         moo();

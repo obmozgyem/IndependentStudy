@@ -9,9 +9,9 @@ public class Dog extends Animal {
         this.legth = legth;
     }
 
-    private void woof() {
-        System.out.println("woof");
-    }
+      private void woof() {
+          System.out.println("woof");
+      }
 
     @Override
     public void sound() {
