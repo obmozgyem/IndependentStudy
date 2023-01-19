@@ -1,4 +1,4 @@
-package com.walking.counterAggregation;
+package com.walking.Lesson12.counterAggregation;
 
 /*
 азработать программу в рамках компании com.walking, позволяющую следить за счетчиками

@@ -1,4 +1,4 @@
-package com.walking.counterAggregation;
+package com.walking.Lesson12.counterAggregation;
 
 public enum CounterImmutable {
 

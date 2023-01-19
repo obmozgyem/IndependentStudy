@@ -1,4 +1,4 @@
-package com.walking.counterAggregation;
+package com.walking.Lesson12.counterAggregation;
 
 public class CounterService {
     /*
@@ -23,32 +23,11 @@ public class CounterService {
         newCounters[newArrayLength - 1] = counter;
 
         System.arraycopy(counters, 0, newCounters, 0, counters.length);
+        counters = newCounters;
 
         return newCounters;
     }
 
-    //работающий вариант
-    /*  public Counter[] addNewCounters(Counter counter) {
-        int newArrayLength = counters.length + 1;
-        Counter[] newCounters = new Counter[newArrayLength];
-        newCounters[newArrayLength - 1] = counter;
-
-        counters = copyArray(counters, newCounters);
-
-        return counters;
-    }
-
-    private Counter[] copyArray(Counter[] oldArray, Counter[] newArray) {
-        System.arraycopy(counters, 0, newArray, 0, counters.length);
-        // тоже самое
-        //   for (int i = 0; i < oldArray.length; i++) {
-        //       newArray[i] = oldArray[i];
-        //   }
-
-        return newArray;
-    }
-
-     */
 
 
     public Counter reset(Counter counter) {
@@ -57,8 +36,8 @@ public class CounterService {
     }
 
     public void printCountersResult(Counter[] countersArray) {
-        Counter[] printCountersResult = countersArray;
-        for (Counter counter : printCountersResult) {
+
+        for (Counter counter : countersArray) {
             System.out.println(counter.toString());
         }
     }
