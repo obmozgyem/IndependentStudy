@@ -1,8 +1,8 @@
-package com.walking.Lesson14.Task1;
+package com.walking.Lesson16_abstract.Task1;
 
-import com.walking.Lesson14.Task1.Model.EquilateralShape;
-import com.walking.Lesson14.Task1.Model.EquilateralTriangle;
-import com.walking.Lesson14.Task1.Model.Square;
+import com.walking.Lesson16_abstract.Task1.Model.EquilateralShape;
+import com.walking.Lesson16_abstract.Task1.Model.EquilateralTriangle;
+import com.walking.Lesson16_abstract.Task1.Model.Square;
 
 import java.util.Scanner;
 

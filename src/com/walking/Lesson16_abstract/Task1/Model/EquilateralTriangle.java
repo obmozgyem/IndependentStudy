@@ -1,4 +1,4 @@
-package com.walking.Lesson14.Task1.Model;
+package com.walking.Lesson16_abstract.Task1.Model;
 
 public class EquilateralTriangle extends EquilateralShape {
     //    За единицу у основания принято "--" для минимально удобоваримой визуализации

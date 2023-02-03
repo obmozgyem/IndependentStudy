@@ -1,6 +1,6 @@
-package com.walking.Lesson14.Task1.Model;
+package com.walking.Lesson16_abstract.Task1.Model;
 
-public class EquilateralShape {
+public abstract class EquilateralShape {
     public static final String EMPTY_ELEMENT = " ";
     public static final String EMPTY_STRING = "";
     public static final char NEW_LINE_SYMBOL = '\n';
